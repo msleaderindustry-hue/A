@@ -244,13 +244,15 @@ const Contact = () => (
                     >
                         <i className="fa-regular fa-envelope"></i> Email Me
                     </motion.a>
-                    <motion.a 
-                        href="#"
-                        whileHover={{ y: -5, background: '#0088cc', color: '#fff', borderColor: '#0088cc' }}
-                        style={{ padding: '15px 30px', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}
-                    >
-                        <i className="fa-brands fa-telegram"></i> Telegram
-                    </motion.a>
+                   <motion.a 
+    href="https://t.me/m0rphxz" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    whileHover={{ y: -5, background: '#0088cc', color: '#fff', borderColor: '#0088cc' }}
+    style={{ padding: '15px 30px', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}
+>
+    <i className="fa-brands fa-telegram"></i> Telegram
+</motion.a>
                 </div>
             </div>
         </Reveal>
